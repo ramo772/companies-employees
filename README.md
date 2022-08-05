@@ -27,6 +27,10 @@ Copy the example env file and make the required configuration changes in the .en
 Run the database migrations (**Set the database connection in .env before migrating**)
 
     php artisan migrate
+    
+Link Storage
+
+    php artisan storage:link
 
 Start the local development server
 
