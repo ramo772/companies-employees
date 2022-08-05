@@ -77,7 +77,7 @@ class EmployeeController extends Controller
 
         Mail::to($employee->email)->send(new SendNewEmployeeMail($employee));
 
-        return redirect()->route('employees.index')->with('message', 'Company added successfully');
+        return redirect()->route('employees.index')->with('message', 'Employee added successfully');
     }
 
     /**
