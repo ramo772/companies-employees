@@ -6,8 +6,8 @@
 
 Clone the repository
 
-    git clone https://github.com/ramo772/TodoList.git
-
+    git clone https://github.com/ramo772/companies-employees.git
+    
 Switch to the repo folder
 
     cd companies-employees
